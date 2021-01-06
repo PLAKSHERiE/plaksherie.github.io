@@ -1268,7 +1268,7 @@ img.mfp-img {
   .wrapper-popup-post .video-cont {
     height: 600px;
     width: 490px; }
-  .wrapper-popup-post #player-post {
+  .wrapper-popup-post #player-post, .wrapper-popup-post #player-post2, .wrapper-popup-post #player-post3 {
     height: 600px; }
   .wrapper-popup-post .owl-dots {
     position: absolute;
@@ -1471,7 +1471,7 @@ img.mfp-img {
   .wrapper-popup-post .video-cont-mob video {
     object-fit: cover; }
 
-#player-post-mob {
+#player-post-mob, #player-post-mob2, #player-post-mob3 {
   height: 400px; }
 
 .wrapper-storis-popup {
