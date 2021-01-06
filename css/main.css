@@ -1423,7 +1423,8 @@ img.mfp-img {
 body {
   background-color: #fafafa;
   font-family: 'Segoe UI';
-  width: 100%; }
+  width: 100%;
+  position: relative; }
   @media screen and (max-width: 735px) {
     body {
       background-color: #fff; } }
