@@ -55,6 +55,16 @@ body::-webkit-scrollbar-thumb {
 .glavnay {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
         url(../img/fon/bgfon.jpg) no-repeat top center;
+    /* Для WebKit (Safari, Google Chrome и т.д.) */
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(#00f),
+        to(#fff)
+    );
+    /* Для Mozilla/Gecko (Firefox и т.д.) */
+    background: -moz-linear-gradient(top, rgb(255, 0, 0), #fff);
     -webkit-background-size: auto;
     -moz-background-size: auto;
     -o-background-size: auto;
