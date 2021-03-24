@@ -1,0 +1,7 @@
+User-agent: Yandex
+Disallow: /assets
+Disallow: /pages/portfolio
+User-agent: Googlebot
+Disallow: /assets
+Disallow: /pages/portfolio
+Sitemap: https://мастеровой-пнз.рф/sitemap.xml
